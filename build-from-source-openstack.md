@@ -34,6 +34,6 @@ location = /home/buidung/....
    ```
 3. Thực hiện câu lệnh kolla-build để build lại image:
    ```
-kolla-build --config-file /home/buidung/kolla-build.conf -b ubuntu watcher
+     kolla-build --config-file /home/buidung/kolla-build.conf -b ubuntu watcher
    ```
 Khi đó image sẽ được build từ source của mình đã được git clone. 
